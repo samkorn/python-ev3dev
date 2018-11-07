@@ -61,3 +61,7 @@ These can be installed from the extensions button on the left sidebar of VS Code
 ### Running a script using the VS Code ev3dev Workflow ###
 1) Once you've written a script and saved it, and you've connected your EV3 to the VS Code browser, you should be able to remotely run scripts on your brick from your computer. In order to remotely run a script, simply by pressing the F5 key (or fn + F5) on your keyboard.
 2) Be patient!! Connecting to the brick, and then importing modules takes a long time with this workflow. It is a good idea to include a sound file or print statement after the import statements in your code so that you know the program is ready to run.
+
+
+## Acknowledgements ##
+Initial code base for the PS3/PS4 interface provided by Artur Poznanski (https://gist.github.com/artpoz)
