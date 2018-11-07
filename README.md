@@ -5,18 +5,18 @@ This repository contains the basic code necessary to create your very own PS3-co
 
 ### DIRECTORY LAYOUT ###
 .  
-|—— .vscode/            # Visual Studio Code Settings (don't mess with these!)  
-    |—— launch.json  
-    |—— settings.json  
-|—— python-tutorials/   # Beginner python tutorials  
-    |—— classes.py      # Python classes tutorial (3rd)  
-    |—— functions.py    # Python functions tutorial (2nd)  
-    |—— hello.py        # Very first program! (1st)  
-|—— basic_remote.py     # Basic PS3 remote control  
-|—— ev3_demo.py         # A demo of the EV3 motors  
-|—— ps3_test.py         # Testing sandbox for the PS3 interface  
-|—— ps3-map.txt         # PS3 evdev event code map  
-|—— remote.py           # Final remote control program  
+|—— .vscode/             # Visual Studio Code Settings (don't mess with these!)  
+|    |—— launch.json  
+|    |—— settings.json  
+|—— python-tutorials/    # Beginner python tutorials  
+|    |—— classes.py      # Python classes tutorial (3rd)  
+|    |—— functions.py    # Python functions tutorial (2nd)  
+|    |—— hello.py        # Very first program! (1st)  
+|—— basic_remote.py      # Basic PS3 remote control  
+|—— ev3_demo.py          # A demo of the EV3 motors  
+|—— ps3_test.py          # Testing sandbox for the PS3 interface  
+|—— ps3-map.txt          # PS3 evdev event code map  
+|—— remote.py            # Final remote control program  
 
 ### Installation ###
 The following instructions assume that the user is working with Mac OS 10.
