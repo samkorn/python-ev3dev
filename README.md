@@ -2,7 +2,7 @@
 
 This repository contains the basic code necessary to create your very own PS3-controlled EV3 Robot!
 
-### DIRECTORY LAYOUT ###
+### Directory Structure ###
 ```bash
 .
 |—— .vscode/             # Visual Studio Code Settings (don't mess with these!)
@@ -22,10 +22,11 @@ This repository contains the basic code necessary to create your very own PS3-co
 ### Installation ###
 The following instructions assume that the user is working with Mac OS 10.
 
-In order to use this workflow, you must have VSCode installed. You will need to install two additional extensions: <br/>
+In order to use this workflow, you must have Visual Studio Code installed. You will need to install two additional extensions: <br/>
 -Python (2018.9.2+) <br/>
 -ev3dev-browser (0.8.1+) <br/>
-These can be installed from the extensions button on the left sidebar of VSCode. Once installed, you will need to reload VSCode.
+
+These can be installed from the extensions button on the left sidebar of VS Code. Once installed, you will need to reload VS Code.
 
 
 ## Running ev3dev Scripts ##
