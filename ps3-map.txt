@@ -1,0 +1,70 @@
+#### EVDEV MODULE - PS3 CONTROLLER EVENT CODE MAP ####
+
+
+### KEY PRESS CODES ###
+===================================
+event.type = 1
+	when pressed:	event.value = 1
+	when released:	event.value = 0
+===================================	
+
+BUTTON		   CODE	
+-------------------		
+X				304
+O				305
+Triangle		307
+Square			308
+
+L1				310
+R1				311
+L2				312
+R2				313
+
+Select			314
+Start			315
+Playstation		316
+
+Left joystick	317
+Right joystick	318
+
+Up				544
+Down			545
+Left			546
+Right			547
+
+
+
+### ANALOGUE CODES ###
+=====================================
+event.type = 3
+	lower limit:	event.value = 0
+	upper limit:	event.value = 255
+=====================================
+
+Left joystick X axis 	code = 0
+	all the way left		value = 0
+	all the way right		value = 255
+	middle					value = ~127
+
+Left joystick Y axis	code = 1
+	all the way left 		value = 0
+	all the way right		value = 255
+	middle					value = ~127
+
+L2						code = 2
+	unpressed				value = 0
+	fully pressed			value = 255
+
+Right joystick X axis	code = 3
+	all the way left		value = 0
+	all the way right		value = 255
+	middle					value = ~127
+
+Right joystick Y axis	code= 4
+	all the way top			value = 0
+	all the way bottom		value = 255
+	middle					value = ~ 127
+
+R2						code = 5
+	unpressed				value = 0
+	fully pressed			value = 255
