@@ -1,5 +1,4 @@
 # python-ev3dev #
-## Python ev3dev + PS3 Remote Control Tutorial ##
 
 This repository contains the basic code necessary to create your very own PS3-controlled EV3 Robot!
 
@@ -56,7 +55,7 @@ These can be installed from the extensions button on the left sidebar of VSCode.
 
 ### Connecting your EV3 to VS Code ###
 1) In Visual Studio Code, under the sidebar menu labeled "EV3DEV DEVICE BROWSER", select the option that says "Click here to connect to a device".
-2) Select the ev3dev device from the dropdown menu. If you've connected succesfully, your device should appear in the device browser, with a small green circle next to it. See Troubleshooting for problem solving steps if this does not work. 
+2) Select the ev3dev device from the dropdown menu. If you've connected succesfully, your device should appear in the device browser, with a small green circle next to it.
 
 ### Running a script using the VS Code ev3dev Workflow ###
 1) Once you've written a script and saved it, and you've connected your EV3 to the VS Code browser, you should be able to remotely run scripts on your brick from your computer. In order to remotely run a script, simply by pressing the F5 key (or fn + F5) on your keyboard.
