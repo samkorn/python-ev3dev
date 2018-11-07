@@ -6,12 +6,12 @@ This repository contains the basic code necessary to create your very own PS3-co
 ```bash
 .
 |—— .vscode/             # Visual Studio Code Settings (don't mess with these!)
-|    |—— launch.json
-|    |—— settings.json
+|   |—— launch.json
+|   |—— settings.json
 |—— python-tutorials/    # Beginner python tutorials
-|    |—— classes.py      # Python classes tutorial (3rd)
-|    |—— functions.py    # Python functions tutorial (2nd)
-|    |—— hello.py        # Very first program! (1st)
+|   |—— classes.py       # Python classes tutorial (3rd)
+|   |—— functions.py     # Python functions tutorial (2nd)
+|   |—— hello.py         # Very first program! (1st)
 |—— basic_remote.py      # Basic PS3 remote control
 |—— ev3_demo.py          # A demo of the EV3 motors
 |—— ps3_test.py          # Testing sandbox for the PS3 interface
